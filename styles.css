@@ -6,11 +6,15 @@ body {
 
 h1 {
 	font-family: 'Quicksand', sans-serif;
+	border-width: 5px;
+	border-style: none solid solid none;
+	border-color: black;
 }
 
 a {
 	text-decoration: none;
 	color: 	white;
+
 }
 
 .navbutton {
@@ -20,7 +24,13 @@ a {
 	border-width: 15px;
 	border-color: #7887AB;
 	border-style: none none none solid;
-
 	margin: 0px 0px;
-
+	padding-left: 20px;
+	transition: background-color 0.5s, border-color 0.5s;
 }
+
+.navbutton:hover {
+	background-color: #D1DBF0;
+	border-color: #D1DBF0;
+}
+
